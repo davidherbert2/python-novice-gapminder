@@ -423,9 +423,9 @@ IndexError: string index out of range
 > > ~~~
 > > {: .language-python}
 > > `new = old` makes `new` a reference to the list `old`; `new` and `old` point
-> > towards the same object.
+> > towards the same object.  Changing the value of the first item in list `new` therefore makes the same change in list `old`.
 > > 
 > > `new = old[:]` however creates a new list object `new` containing all elements
-> > from the list `old`; `new` and `old` are different objects.
+> > from the list `old`; `new` and `old` are different objects.  Changing the value of the first item in list `new` leaves `old` unaffected.
 > {: .solution}
 {: .challenge}
