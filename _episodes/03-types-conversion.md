@@ -200,7 +200,7 @@ a is 2 and b is 1
 ~~~
 {: .output}
 
-`b` is assigned the same value as `a`, with the value stored in a separate location.  Subsequent assignment of a new value to `a` leaves `b` unaffected. 
+Here `b` is assigned the same value as `a`, this value being stored in a separate location.  Subsequent reassignment of `a` therefore leaves `b` unaffected. 
 
 Here is a slightly more complicated example involving computation on the second value:
 
